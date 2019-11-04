@@ -13,6 +13,7 @@ import { AboutComponent } from './views/about/about.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full'},
+  { path: 'home', component: HomeComponent},
   { path: 'about', component: AboutComponent},
 ];
 

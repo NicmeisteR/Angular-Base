@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #333333 !important;
+    color: #ffffff !important;
+}
+
+.bg-dark {
+    background: #3b3b3b !important;
+    border-bottom: 4px rgba(0, 208, 208, 0.8) solid !important;
+    box-shadow: 0px 8px 5px rgba(0, 208, 208, 0.6);
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link.active {
+    color: rgba(0, 208, 208, 0.8) !important;
+}
+
+.navbar-brand {
+    color: rgb(0, 208, 208) !important;
+}
+
+.container-blue {
+    margin-top: 80px;
+    background: rgba(0, 208, 208, 0.6) !important;
+    border-radius: 16px 16px 0px 0px;
+
+    h1 {
+        margin-left:20px;
+        padding-bottom: 20px;
+    }
+}
+
+.container-blue-light {
+    margin-top: 10px;
+    background: rgba(0, 208, 208, 0.2) !important;
+
+    p {
+        margin-left:20px;
+        margin-right:20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
